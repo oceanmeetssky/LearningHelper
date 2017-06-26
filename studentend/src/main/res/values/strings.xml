@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">StudentEnd</string>
+    <string name="attendence">Attendence</string>
+    <string name="Task">Task</string>
+    <string name="OfficeHourAppointment">Office Hour Appointment</string>
+    <string name="CourseName">Course</string>
+    <string name="ClassName">Class</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="publish">Publish</string>
+    <string name="title_activity_test_web_service">test_web_service</string>
+    <string name="menu_settings">Menu</string>
+    <string name="hello_world">hello_world</string>
+    <string name="Duration">Duration</string>
+    <string name="title_activity_attendence_management">AttendenceManagement</string>
+    <string name="releaseattendencetask">Release Attendence Task</string>
+    <string name="manageattendencetask">Manage Attendence Task</string>
+    <string name="Task_All_Record">All The Record</string>
+    <string name="Task_All_Task">All The Tasks</string>
+    <string name="Task_Unfinished_Tasks">Unfinished Tasks</string>
+    <string name="Task_QuestionList">Question List</string>
+    <string name="CommitAnswer">Commit Answer</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login1111">Sign in</string>
+</resources>

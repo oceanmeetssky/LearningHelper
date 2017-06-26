@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TeacherEnd</string>
+    <string name="attendence">Attendence</string>
+    <string name="Task">Task</string>
+    <string name="OfficeHourAppointment">Office Hour Appointment</string>
+    <string name="CourseName">Course</string>
+    <string name="ClassName">Class</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="publish">Publish</string>
+    <string name="title_activity_test_web_service">test_web_service</string>
+    <string name="menu_settings">Menu</string>
+    <string name="hello_world">hello_world</string>
+    <string name="Duration">Duration</string>
+    <string name="title_activity_attendence_management">AttendenceManagement</string>
+    <string name="releaseattendencetask">Release Attendence Task</string>
+    <string name="manageattendencetask">Manage Attendence Task</string>
+</resources>

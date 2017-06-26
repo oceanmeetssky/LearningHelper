@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CourseName">课程</string>
+    <string name="ClassName">班级</string>
+    <string name="Duration"></string>
+    <string name="OfficeHourAppointment">答疑预约</string>
+    <string name="Task">任务列表</string>
+    <string name="attendence">点我签到</string>
+    <string name="manageattendencetask">签到管理</string>
+    <string name="publish">发布</string>
+    <string name="releaseattendencetask"></string>
+    <string name="Task_All_Task">全部任务</string>
+    <string name="Task_Unfinished_Tasks">未完任务</string>
+    <string name="Task_QuestionList">题目列表</string>
+    <string name="CommitAnswer">提交作业</string>
+    <string name="app_name">学习助手-学生端</string>
+</resources>

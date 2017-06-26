@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_task_management"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.example.studentend.CustomizedClass.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.studentend.CustomizedClass.TitleLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:text="课程"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            style="@style/TextView3"
+
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_Task_CourseName_ClassNo"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/radius_border"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65"
+            android:padding="0dp"
+            >
+
+            <Button
+                android:text="@string/Task_All_Task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_Task_All_Record"
+                android:layout_weight="1"
+                android:layout_margin="0dp"
+                android:paddingBottom="0dp"
+                android:background="@drawable/border" />
+
+            <Button
+                android:text="@string/Task_Unfinished_Tasks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_Task_Unfinished_Record"
+                android:layout_weight="1"
+                android:background="@drawable/border2"
+                android:layout_margin="0dp"
+                android:paddingBottom="0dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            >
+
+            <ListView
+                android:id="@+id/ListView_TaskList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

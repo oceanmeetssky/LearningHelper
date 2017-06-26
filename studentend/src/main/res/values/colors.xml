@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="c1">#F5F6EB</color><!--由浅到深-->
+    <color name="c2">#EFF0DC</color>
+    <color name="c3">#C9CABB</color>
+    <color name="c4">#34352C</color>
+    <color name="c5">#95989a</color><!--字体颜色-->
+</resources>

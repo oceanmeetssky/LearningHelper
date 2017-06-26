@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_sno"
+                android:textSize="20dp"
+                android:textColor="@color/c5"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_sname"
+                android:textSize="20dp"
+                android:textColor="@color/c5"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:background="@drawable/border"/>
+        </LinearLayout>
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_filename"
+            android:textSize="20dp"
+            android:padding="5sp"
+            android:textColor="@color/c5"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/checkBox_chooseFile"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

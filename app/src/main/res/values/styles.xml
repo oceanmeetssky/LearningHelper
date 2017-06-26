@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c1</item><!--app工具栏（名称）-->
+        <item name="colorPrimaryDark">@color/c1</item><!--app状态栏（信号电量等）-->
+        <item name="colorAccent">@color/c3</item><!--对一部分控件的颜色如单选边框-->
+        <item name="android:colorBackground">@color/c1</item><!--背景色-->
+        <item name="android:buttonStyle">@style/Button</item><!--按钮样式-->
+        <!--<item name="android:imageButtonStyle">@style/ImageButton</item>--><!--图片按钮样式,无效-->
+        <item name="android:textViewStyle">@style/TextView</item><!--textView样式，文字居中,颜色-->
+        <item name="android:alertDialogTheme">@style/MyAlertDialogStyle</item><!--保险的办法是用android:加空控件名，有style和theme之别-->
+    </style>
+    <!--以下是自定义的样式-->
+    <style name="Button" parent="android:style/Widget.Holo.Button">
+        <item name="android:background">@color/c2</item>
+        <item name="android:textColor">@color/c4</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+    <style name="ImageButton" parent="android:style/Widget.Holo.ImageButton"><!--activity_main,Attencence_ReleaseRequest里的样式-->
+        <!--不知道为什么，引用这个名字实现的是这个效果，反而和上面一样引用xxxStyle实现的不一致,及不能统一化-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="ImageButton2" parent="android:style/Widget.Holo.ImageButton"><!--actionbar里的样式-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="ImageButton3" parent="android:style/Widget.Holo.ImageButton"><!--对应于签到总界面Attendence_Management的样式-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="TextView" parent="android:style/Widget.Holo.TextView"><!--通用的样式-->
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/c5</item>
+    </style>
+    <style name="TextView1" parent="android:style/Widget.Holo.TextView"><!--对应于第一个总界面的样式-->
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/c5</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="TextView2" parent="android:style/Widget.Holo.TextView"><!--对应于签到总界面Attendence_Management的样式-->
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/c5</item>
+    </style>
+    <style name="TextView3" parent="android:style/Widget.Holo.TextView"><!--Attencence_ReleaseRequest的样式-->
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/c5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="TextView4" parent="android:style/Widget.Holo.TextView"><!--TaskManagement_ReleaseTask发布作业-发布作业的样式-->
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/c5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">4.2</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+    <style name="spiner" parent="android:style/Widget.Holo.Light.Spinner"><!--自动生产的样式好像更好，所以未使用-->
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#4fb4a3</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/c4</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/c2</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

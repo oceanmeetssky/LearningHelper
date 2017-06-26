@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_task_management"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gcg.teacherend.TaskManagement.TaskManagement">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tassign0"
+                android:id="@+id/imageButton_ReleaseTask" />
+
+            <TextView
+                android:text="发布作业"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:paddingBottom="30dp"
+                android:id="@+id/textView_ReleaseTask" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tcheck0"
+                android:id="@+id/imageButton_CheckTaskRecord" />
+            <TextView
+                android:text="检查作业"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+
+                android:id="@+id/textView_CheckTask" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tedit0"
+            android:id="@+id/imageButton_EditTask" />
+
+        <TextView
+            android:text="编辑作业"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:paddingBottom="30dp"
+            android:id="@+id/textView_EditTask" />
+
+            <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tdelete0"
+            android:id="@+id/imageButton_DeleteTask" />
+            <TextView
+                android:text="删除作业"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+
+                android:id="@+id/textView_DeleteTask" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@mipmap/ic_launcher"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginLeft="59dp"-->
+        <!--android:layout_marginStart="59dp"-->
+        <!--android:layout_marginTop="75dp"-->
+        <!--android:id="@+id/imageButton_ReleaseTask" />-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@mipmap/ic_launcher"-->
+        <!--android:layout_alignTop="@+id/imageButton_ReleaseTask"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginRight="56dp"-->
+        <!--android:layout_marginEnd="56dp"-->
+        <!--android:id="@+id/imageButton_EditTask" />-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@mipmap/ic_launcher"-->
+        <!--android:layout_alignTop="@+id/imageButton_CheckTaskRecord"-->
+        <!--android:layout_alignLeft="@+id/imageButton_EditTask"-->
+        <!--android:layout_alignStart="@+id/imageButton_EditTask"-->
+        <!--android:id="@+id/imageButton_DeleteTask" />-->
+
+    <!--<TextView-->
+        <!--android:text = "发布任务"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/imageButton_ReleaseTask"-->
+        <!--android:layout_alignLeft="@+id/imageButton_ReleaseTask"-->
+        <!--android:layout_alignStart="@+id/imageButton_ReleaseTask"-->
+        <!--android:id="@+id/textView_ReleaseTask" />-->
+
+    <!--<TextView-->
+        <!--android:text="编辑任务"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/imageButton_EditTask"-->
+        <!--android:layout_alignLeft="@+id/imageButton_EditTask"-->
+        <!--android:layout_alignStart="@+id/imageButton_EditTask"-->
+        <!--android:id="@+id/textView_EditTask" />-->
+
+    <!--<TextView-->
+        <!--android:text="检查任务"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/imageButton_CheckTaskRecord"-->
+        <!--android:layout_alignLeft="@+id/imageButton_CheckTaskRecord"-->
+        <!--android:layout_alignStart="@+id/imageButton_CheckTaskRecord"-->
+        <!--android:id="@+id/textView_CheckTask" />-->
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@mipmap/ic_launcher"-->
+        <!--android:layout_marginTop="118dp"-->
+        <!--android:id="@+id/imageButton_CheckTaskRecord"-->
+        <!--android:layout_below="@+id/textView_ReleaseTask"-->
+        <!--android:layout_alignLeft="@+id/textView_ReleaseTask"-->
+        <!--android:layout_alignStart="@+id/textView_ReleaseTask" />-->
+
+    <!--<TextView-->
+        <!--android:text="删除任务"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/textView_DeleteTask"-->
+        <!--android:layout_below="@+id/imageButton_DeleteTask"-->
+        <!--android:layout_alignLeft="@+id/imageButton_DeleteTask"-->
+        <!--android:layout_alignStart="@+id/imageButton_DeleteTask" />-->
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 直角边框 ,c2背景,c3边框-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/c2" /><!-- 背景色-->
+
+            <stroke android:width="1dp" android:color="@color/c3" /><!--c3边框-->
+        </shape>
+    </item>
+</layer-list>

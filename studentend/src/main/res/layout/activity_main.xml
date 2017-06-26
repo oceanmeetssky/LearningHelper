@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><!--01总界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_gravity="center"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_Attendence"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            style="@style/ImageButton"
+            android:background="@drawable/attandance0"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_Task"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            style="@style/ImageButton"
+            android:background="@drawable/task0"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="1"
+            android:text="@string/attendence"
+            style="@style/TextView1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:text="@string/Task"
+            style="@style/TextView1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_OfficeHour"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            style="@style/ImageButton"
+            android:background="@drawable/officehour0"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:layout_weight="1"
+            style="@style/ImageButton"
+            android:background="@drawable/me0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="1"
+            android:text="@string/OfficeHourAppointment"
+            style="@style/TextView1" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="1"
+            android:text="我的设置"
+            style="@style/TextView1"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+
+        <!--&gt;-->
+
+        <!--<Button-->
+        <!--android:id="@+id/button_Attendence1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/attendence"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:onClick="OnClick"-->
+        <!--/>-->
+
+        <!--<Button-->
+        <!--android:id="@+id/button_Task"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/Task"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:onClick="OnClick"-->
+
+        <!--/>-->
+        <!--<Button-->
+        <!--android:id="@+id/button_OfficeHour"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/OfficeHourAppointment"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:onClick="OnClick"-->
+        <!--/>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

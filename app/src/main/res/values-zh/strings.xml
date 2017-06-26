@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">学习助手-教师端</string>
+    <string name="attendence">签到审查</string>
+    <string name="Task">作业管理</string>
+    <string name="OfficeHourAppointment">答疑预约</string>
+    <string name="ClassName">班级</string>
+    <string name="CourseName">课程</string>
+    <string name="publish">发布</string>
+    <string name="Duration">持续时间</string>
+    <string name="releaseattendencetask">发布签到</string>
+    <string name="manageattendencetask">签到管理</string>
+</resources>
